@@ -1,3 +1,4 @@
+<!--Ở ĐÂY LÀ TRUYỀN PROPS-->
 <script setup>
 const props = defineProps(['title', 'author', 'views'])
 </script>

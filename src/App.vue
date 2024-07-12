@@ -1,3 +1,4 @@
+<!--TRUYỀN ĐỘNG ĐỂ LẤY GIÁ TRỊ VÀ HIỂN THỊ-->
 <script setup>
 import Display from './Display.vue'
 import { ref } from 'vue'
@@ -23,7 +24,6 @@ const res = ref([
 ])
 
 console.log(res.value)
-// })
 </script>
 <template>
   <span v-for="item in res">
