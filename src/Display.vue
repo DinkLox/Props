@@ -1,5 +1,6 @@
 <!--Ở ĐÂY LÀ TRUYỀN PROPS-->
 <script setup>
+// import { defineProps } from 'vue'
 const props = defineProps(['title', 'author', 'views'])
 </script>
 <template>
