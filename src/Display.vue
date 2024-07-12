@@ -6,6 +6,7 @@ const props = defineProps(['title', 'author', 'views'])
   <div class="container">
     <div class="item">
       <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Image 1" />
+      <!--Nhận giá trị truyền từ props-->
       <div class="title">{{ props.title }}</div>
       <div class="author">{{ props.author }}</div>
       <div class="views">{{ props.views }}</div>
